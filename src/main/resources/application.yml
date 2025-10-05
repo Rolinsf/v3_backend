@@ -1,0 +1,23 @@
+# 项目配置
+novel:
+  # 跨域配置
+  cors:
+    # 允许跨域的域名
+    allow-origins:
+      - http://localhost:1024
+      - http://localhost:8080
+
+spring:
+  flyway:
+    # 是否开启 Flyway
+    enabled: false
+    # initialize the schema history table
+    baseline-on-migrate: true
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/novel?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
+    redis:
+      host: 127.0.0.1
+      port: 6379
