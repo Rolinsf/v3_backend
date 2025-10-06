@@ -71,6 +71,7 @@ public class CacheConfig {
             }
         }
 
+
         RedisCacheManager redisCacheManager = new RedisCacheManager(redisCacheWriter, defaultCacheConfig, cacheMap);
         redisCacheManager.setTransactionAware(true);
         redisCacheManager.initializeCaches();
