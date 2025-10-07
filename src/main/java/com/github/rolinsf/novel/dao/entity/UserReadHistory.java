@@ -12,7 +12,7 @@ import java.time.LocalDateTime;
  * </p>
  *
  * @author ${author}
- * @date 2025/10/06
+ * @date 2025/10/07
  */
 @TableName("user_read_history")
 public class UserReadHistory implements Serializable {

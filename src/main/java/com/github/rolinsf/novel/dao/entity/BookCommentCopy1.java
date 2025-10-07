@@ -12,7 +12,7 @@ import java.time.LocalDateTime;
  * </p>
  *
  * @author ${author}
- * @date 2025/10/06
+ * @date 2025/10/07
  */
 @TableName("book_comment_copy1")
 public class BookCommentCopy1 implements Serializable {
