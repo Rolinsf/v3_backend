@@ -25,6 +25,11 @@ public class CacheConsts {
     public static final String REDIS_CACHE_MANAGER = "redisCacheManager";
 
     /**
+     * 图片验证码缓存 KEY
+     */
+    public static final String IMG_VERIFY_CODE_CACHE_KEY =
+            REDIS_CACHE_PREFIX + "imgVerifyCodeCache::";
+    /**
      * 首页小说推荐缓存
      * */
     public static final String HOME_BOOK_CACHE_NAME = "homeBookCache";
