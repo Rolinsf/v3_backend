@@ -21,3 +21,13 @@ spring:
     redis:
       host: 127.0.0.1
       port: 6379
+--- #---------------------自定义配置----------------------------
+novel:
+  file:
+    # 文件上传配置
+    upload:
+      # 上传路径
+      path: /Users/xiongxiaoyang/upload
+  # JWT 密钥
+  jwt:
+    secret: E66559580A1ADF48CDD928516062F12E
