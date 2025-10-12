@@ -21,6 +21,9 @@ import org.springframework.util.DigestUtils;
 import java.nio.charset.StandardCharsets;
 import java.time.LocalDateTime;
 
+/**
+ * @author 17439
+ */
 @Service
 @RequiredArgsConstructor
 public class UserServiceImpl implements UserService {
