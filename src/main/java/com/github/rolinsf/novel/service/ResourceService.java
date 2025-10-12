@@ -28,4 +28,7 @@ public interface ResourceService {
      * @return 图片访问路径
      * */
     RestResp<String> uploadImage(MultipartFile file);
+
+
+
 }
